@@ -54,7 +54,7 @@ export default {};
 </script>
 
 <style>
-a.nuxt-link-exact-active {
-  font-weight: bold;
-}
+  a.nuxt-link-exact-active {
+    font-weight: bold;
+  }
 </style>

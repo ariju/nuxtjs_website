@@ -67,7 +67,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+$color: red;
+
+p {
+  color: $color;
+}
+
 a {
   color: #212529;
   transition: all 0.2s;

@@ -17,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/post">Sample Post</a>
+              <router-link class="nav-link" to="/post">Sample Post</router-link>
             </li>
           </ul>
         </div>
@@ -31,7 +31,7 @@
     </nav>
 
     <nuxt />
-    
+
     <hr />
 
     <!-- Footer -->
@@ -53,4 +53,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+a.nuxt-link-exact-active {
+  font-weight: bold;
+}
+</style>
